@@ -39,6 +39,7 @@ loadId(String w) async {
       m = await loadBingPic();
       break;
   }
+  int i = items.length;
   Dismissible d = Dismissible(
     key: ObjectKey(Random().nextInt(10000)),
     child: CupertinoActionCard(
@@ -46,7 +47,7 @@ loadId(String w) async {
       actions: m.children,
     ),
     onDismissed: (DismissDirection direction) async {
-      items.removeAt(items.length);
+      items.removeAt(i);
       String list = await Manager().readShared('list');
       int index = list.indexOf(m.id);
       list = list.substring(0, index) + list.substring(index + m.id.length + 1);

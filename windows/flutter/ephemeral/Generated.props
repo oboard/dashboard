@@ -5,7 +5,7 @@
     <FLUTTER_ROOT>D:\flutter</FLUTTER_ROOT>
     <FLUTTER_EPHEMERAL_DIR>C:\Users\admin\StudioProjects\dashboard\windows\flutter\ephemeral</FLUTTER_EPHEMERAL_DIR>
     <PROJECT_DIR>C:\Users\admin\StudioProjects\dashboard</PROJECT_DIR>
-    <TRACK_WIDGET_CREATION>false</TRACK_WIDGET_CREATION>
+    <TRACK_WIDGET_CREATION>true</TRACK_WIDGET_CREATION>
     <FLUTTER_TARGET>C:\Users\admin\StudioProjects\dashboard\lib\main.dart</FLUTTER_TARGET>
   </PropertyGroup>
   <PropertyGroup/>
